@@ -9,7 +9,7 @@ import os
 ############################################################################################
 
 cluster = "BluePebble"
-submission_script = "sumbit_umb_samp"
+submission_script = "submit_umb_samp"
 # the md file should only contain md options and the definition of your qm region and level of theory etc.
 md_file = "md2ps.i"
 nodes = 1

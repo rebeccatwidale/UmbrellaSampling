@@ -243,7 +243,7 @@ Try and integer value between 0 and {self.procs}""")
         Four atoms = dihedral
         """
 
-        with open(rc_file, r) as f:
+        with open(rc_file, "r") as f:
             pass
 
     def write_restraints_file(self, force_constant, rc_window, well_size, rc_iats):
